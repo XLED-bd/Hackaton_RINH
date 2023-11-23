@@ -4,11 +4,11 @@ plugins {
 
 android {
     namespace = "com.example.hackaton_rinh"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.hackaton_rinh"
-        minSdk = 29
+        minSdk = 28
         targetSdk = 33
         versionCode = 1
         versionName = "1.0"
