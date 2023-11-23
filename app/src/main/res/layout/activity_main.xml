@@ -7,14 +7,40 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:layout_width="621dp"
+        android:layout_height="606dp"
+        android:layout_marginTop="344dp"
+        android:background="@drawable/circle"
+        android:backgroundTint="#289162"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="507dp"
+        android:layout_height="473dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="400dp"
+        android:background="@drawable/circle"
+        android:backgroundTint="#9C27B0"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
         android:id="@+id/halloworld"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="Hello world!"
+        android:textColor="@color/black"
         android:textSize="40sp"
-        android:text="Hello World!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.552"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.448" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
