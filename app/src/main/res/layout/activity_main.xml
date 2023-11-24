@@ -36,8 +36,6 @@
             android:id="@+id/halloworld"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="320dp"
-            android:layout_marginLeft="100dp"
             android:maxLength="20"
             android:layout_centerInParent="true"
             android:text="!Halo bitches!"
