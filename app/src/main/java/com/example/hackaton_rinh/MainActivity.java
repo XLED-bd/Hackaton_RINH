@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         textView.setText("AbobaHallo");
         int x = 876;
         int y = 666;
+        int r = 777;
     }
     public void DoIt(View view){
         MainRel.setVisibility(View.GONE);
